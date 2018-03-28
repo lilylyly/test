@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <style>
+        .box{
+            width:200px;
+            height:150px;
+            border: 1px solid #000;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .left-text{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <form action="/login" method="post">
+        <div class='left-text'>
+            <sapn>用户名：</sapn>
+            <input type="text" name="usename">
+        </div>
+        <div class="left-text">
+            <span>密码:</span>
+            <input type="password" name="password">
+        </div>
+        <div class="foot">
+            <button type="submit">登录</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
